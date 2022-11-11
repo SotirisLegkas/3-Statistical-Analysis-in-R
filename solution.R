@@ -1,6 +1,6 @@
 #Exercise 1
 #Read and create the appropriate dataset
-datas = read.csv("C:/Users/sotir/Desktop/Data Science/1st Semester/Probability and Statistics for Data Analysis/new HW3/Assignment_3_Data.csv", sep=";",dec=" ",stringsAsFactors=FALSE)
+datas = read.csv("data.csv", sep=";",dec=" ",stringsAsFactors=FALSE)
 datas[,1]=as.numeric(gsub(",", ".", datas[,1]))
 datas[,2]=as.numeric(gsub(",", ".", datas[,2]))
 datas[,3]=as.numeric(gsub(",", ".", datas[,3]))
